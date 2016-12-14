@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C9FE5861E013C35003A81F4 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FE5851E013C35003A81F4 /* PaintView.m */; };
+		4C9FE5891E013C5C003A81F4 /* BezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FE5881E013C5C003A81F4 /* BezierPath.m */; };
+		4CACFAB81E012AF700096EA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFAB71E012AF700096EA5 /* main.m */; };
+		4CACFABB1E012AF700096EA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFABA1E012AF700096EA5 /* AppDelegate.m */; };
+		4CACFABE1E012AF700096EA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFABD1E012AF700096EA5 /* ViewController.m */; };
+		4CACFAC11E012AF700096EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CACFABF1E012AF700096EA5 /* Main.storyboard */; };
+		4CACFAC31E012AF700096EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CACFAC21E012AF700096EA5 /* Assets.xcassets */; };
+		4CACFAC61E012AF700096EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CACFAC41E012AF700096EA5 /* LaunchScreen.storyboard */; };
+		4CACFAD11E012AF700096EA5 /* FMC______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFAD01E012AF700096EA5 /* FMC______Tests.m */; };
+		4CACFADC1E012AF700096EA5 /* FMC______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFADB1E012AF700096EA5 /* FMC______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CACFACD1E012AF700096EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CACFAAB1E012AF700096EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CACFAB21E012AF700096EA5;
+			remoteInfo = "FMC-画板的实现";
+		};
+		4CACFAD81E012AF700096EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CACFAAB1E012AF700096EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CACFAB21E012AF700096EA5;
+			remoteInfo = "FMC-画板的实现";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C9FE5841E013C35003A81F4 /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		4C9FE5851E013C35003A81F4 /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
+		4C9FE5871E013C5C003A81F4 /* BezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPath.h; sourceTree = "<group>"; };
+		4C9FE5881E013C5C003A81F4 /* BezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPath.m; sourceTree = "<group>"; };
+		4CACFAB31E012AF700096EA5 /* FMC-画板的实现.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FMC-画板的实现.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CACFAB71E012AF700096EA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CACFAB91E012AF700096EA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CACFABA1E012AF700096EA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CACFABC1E012AF700096EA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CACFABD1E012AF700096EA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CACFAC01E012AF700096EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CACFAC21E012AF700096EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CACFAC51E012AF700096EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CACFAC71E012AF700096EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CACFACC1E012AF700096EA5 /* FMC-画板的实现Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMC-画板的实现Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CACFAD01E012AF700096EA5 /* FMC______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FMC______Tests.m"; sourceTree = "<group>"; };
+		4CACFAD21E012AF700096EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CACFAD71E012AF700096EA5 /* FMC-画板的实现UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMC-画板的实现UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CACFADB1E012AF700096EA5 /* FMC______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FMC______UITests.m"; sourceTree = "<group>"; };
+		4CACFADD1E012AF700096EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CACFAB01E012AF700096EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CACFAC91E012AF700096EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CACFAD41E012AF700096EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CACFAAA1E012AF700096EA5 = {
+			isa = PBXGroup;
+			children = (
+				4CACFAB51E012AF700096EA5 /* FMC-画板的实现 */,
+				4CACFACF1E012AF700096EA5 /* FMC-画板的实现Tests */,
+				4CACFADA1E012AF700096EA5 /* FMC-画板的实现UITests */,
+				4CACFAB41E012AF700096EA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CACFAB41E012AF700096EA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CACFAB31E012AF700096EA5 /* FMC-画板的实现.app */,
+				4CACFACC1E012AF700096EA5 /* FMC-画板的实现Tests.xctest */,
+				4CACFAD71E012AF700096EA5 /* FMC-画板的实现UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CACFAB51E012AF700096EA5 /* FMC-画板的实现 */ = {
+			isa = PBXGroup;
+			children = (
+				4CACFAB91E012AF700096EA5 /* AppDelegate.h */,
+				4CACFABA1E012AF700096EA5 /* AppDelegate.m */,
+				4CACFABC1E012AF700096EA5 /* ViewController.h */,
+				4CACFABD1E012AF700096EA5 /* ViewController.m */,
+				4CACFABF1E012AF700096EA5 /* Main.storyboard */,
+				4CACFAC21E012AF700096EA5 /* Assets.xcassets */,
+				4CACFAC41E012AF700096EA5 /* LaunchScreen.storyboard */,
+				4CACFAC71E012AF700096EA5 /* Info.plist */,
+				4CACFAB61E012AF700096EA5 /* Supporting Files */,
+			);
+			path = "FMC-画板的实现";
+			sourceTree = "<group>";
+		};
+		4CACFAB61E012AF700096EA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CACFAB71E012AF700096EA5 /* main.m */,
+				4C9FE5841E013C35003A81F4 /* PaintView.h */,
+				4C9FE5851E013C35003A81F4 /* PaintView.m */,
+				4C9FE5871E013C5C003A81F4 /* BezierPath.h */,
+				4C9FE5881E013C5C003A81F4 /* BezierPath.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CACFACF1E012AF700096EA5 /* FMC-画板的实现Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4CACFAD01E012AF700096EA5 /* FMC______Tests.m */,
+				4CACFAD21E012AF700096EA5 /* Info.plist */,
+			);
+			path = "FMC-画板的实现Tests";
+			sourceTree = "<group>";
+		};
+		4CACFADA1E012AF700096EA5 /* FMC-画板的实现UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CACFADB1E012AF700096EA5 /* FMC______UITests.m */,
+				4CACFADD1E012AF700096EA5 /* Info.plist */,
+			);
+			path = "FMC-画板的实现UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CACFAB21E012AF700096EA5 /* FMC-画板的实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CACFAE01E012AF700096EA5 /* Build configuration list for PBXNativeTarget "FMC-画板的实现" */;
+			buildPhases = (
+				4CACFAAF1E012AF700096EA5 /* Sources */,
+				4CACFAB01E012AF700096EA5 /* Frameworks */,
+				4CACFAB11E012AF700096EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FMC-画板的实现";
+			productName = "FMC-画板的实现";
+			productReference = 4CACFAB31E012AF700096EA5 /* FMC-画板的实现.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CACFACB1E012AF700096EA5 /* FMC-画板的实现Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CACFAE31E012AF700096EA5 /* Build configuration list for PBXNativeTarget "FMC-画板的实现Tests" */;
+			buildPhases = (
+				4CACFAC81E012AF700096EA5 /* Sources */,
+				4CACFAC91E012AF700096EA5 /* Frameworks */,
+				4CACFACA1E012AF700096EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CACFACE1E012AF700096EA5 /* PBXTargetDependency */,
+			);
+			name = "FMC-画板的实现Tests";
+			productName = "FMC-画板的实现Tests";
+			productReference = 4CACFACC1E012AF700096EA5 /* FMC-画板的实现Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CACFAD61E012AF700096EA5 /* FMC-画板的实现UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CACFAE61E012AF700096EA5 /* Build configuration list for PBXNativeTarget "FMC-画板的实现UITests" */;
+			buildPhases = (
+				4CACFAD31E012AF700096EA5 /* Sources */,
+				4CACFAD41E012AF700096EA5 /* Frameworks */,
+				4CACFAD51E012AF700096EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CACFAD91E012AF700096EA5 /* PBXTargetDependency */,
+			);
+			name = "FMC-画板的实现UITests";
+			productName = "FMC-画板的实现UITests";
+			productReference = 4CACFAD71E012AF700096EA5 /* FMC-画板的实现UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CACFAAB1E012AF700096EA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "樊梦成";
+				TargetAttributes = {
+					4CACFAB21E012AF700096EA5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					4CACFACB1E012AF700096EA5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CACFAB21E012AF700096EA5;
+					};
+					4CACFAD61E012AF700096EA5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CACFAB21E012AF700096EA5;
+					};
+				};
+			};
+			buildConfigurationList = 4CACFAAE1E012AF700096EA5 /* Build configuration list for PBXProject "FMC-画板的实现" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CACFAAA1E012AF700096EA5;
+			productRefGroup = 4CACFAB41E012AF700096EA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CACFAB21E012AF700096EA5 /* FMC-画板的实现 */,
+				4CACFACB1E012AF700096EA5 /* FMC-画板的实现Tests */,
+				4CACFAD61E012AF700096EA5 /* FMC-画板的实现UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CACFAB11E012AF700096EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CACFAC61E012AF700096EA5 /* LaunchScreen.storyboard in Resources */,
+				4CACFAC31E012AF700096EA5 /* Assets.xcassets in Resources */,
+				4CACFAC11E012AF700096EA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CACFACA1E012AF700096EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CACFAD51E012AF700096EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CACFAAF1E012AF700096EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CACFABE1E012AF700096EA5 /* ViewController.m in Sources */,
+				4C9FE5861E013C35003A81F4 /* PaintView.m in Sources */,
+				4C9FE5891E013C5C003A81F4 /* BezierPath.m in Sources */,
+				4CACFABB1E012AF700096EA5 /* AppDelegate.m in Sources */,
+				4CACFAB81E012AF700096EA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CACFAC81E012AF700096EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CACFAD11E012AF700096EA5 /* FMC______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CACFAD31E012AF700096EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CACFADC1E012AF700096EA5 /* FMC______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CACFACE1E012AF700096EA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CACFAB21E012AF700096EA5 /* FMC-画板的实现 */;
+			targetProxy = 4CACFACD1E012AF700096EA5 /* PBXContainerItemProxy */;
+		};
+		4CACFAD91E012AF700096EA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CACFAB21E012AF700096EA5 /* FMC-画板的实现 */;
+			targetProxy = 4CACFAD81E012AF700096EA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CACFABF1E012AF700096EA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CACFAC01E012AF700096EA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CACFAC41E012AF700096EA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CACFAC51E012AF700096EA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CACFADE1E012AF700096EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CACFADF1E012AF700096EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CACFAE11E012AF700096EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FMC-画板的实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fmc.FMC------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CACFAE21E012AF700096EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FMC-画板的实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fmc.FMC------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CACFAE41E012AF700096EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FMC-画板的实现Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fmc.FMC------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMC-画板的实现.app/FMC-画板的实现";
+			};
+			name = Debug;
+		};
+		4CACFAE51E012AF700096EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FMC-画板的实现Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fmc.FMC------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMC-画板的实现.app/FMC-画板的实现";
+			};
+			name = Release;
+		};
+		4CACFAE71E012AF700096EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FMC-画板的实现UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fmc.FMC------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FMC-画板的实现";
+			};
+			name = Debug;
+		};
+		4CACFAE81E012AF700096EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FMC-画板的实现UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fmc.FMC------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FMC-画板的实现";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CACFAAE1E012AF700096EA5 /* Build configuration list for PBXProject "FMC-画板的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CACFADE1E012AF700096EA5 /* Debug */,
+				4CACFADF1E012AF700096EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CACFAE01E012AF700096EA5 /* Build configuration list for PBXNativeTarget "FMC-画板的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CACFAE11E012AF700096EA5 /* Debug */,
+				4CACFAE21E012AF700096EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CACFAE31E012AF700096EA5 /* Build configuration list for PBXNativeTarget "FMC-画板的实现Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CACFAE41E012AF700096EA5 /* Debug */,
+				4CACFAE51E012AF700096EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CACFAE61E012AF700096EA5 /* Build configuration list for PBXNativeTarget "FMC-画板的实现UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CACFAE71E012AF700096EA5 /* Debug */,
+				4CACFAE81E012AF700096EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CACFAAB1E012AF700096EA5 /* Project object */;
+}
