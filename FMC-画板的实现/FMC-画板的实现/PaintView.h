@@ -12,4 +12,18 @@
 
 @property(nonatomic,strong) UIColor *lineColor;
 
+@property(nonatomic,assign) CGFloat lineWidth;
+
+@property(nonatomic,copy) CGFloat (^lineWidthBlock)();
+//
+@property(nonatomic,assign) BOOL isPainting;
+//清屏
+- (void)clear;
+
+//返回
+- (void)back;
+
+//橡皮
+- (void)eraser;
+
 @end

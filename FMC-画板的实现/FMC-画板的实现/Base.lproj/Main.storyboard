@@ -27,11 +27,35 @@
                                     <constraint firstAttribute="height" constant="44" id="5zI-90-o8N"/>
                                 </constraints>
                                 <items>
-                                    <barButtonItem title="清屏" id="X3R-5b-IcL" userLabel="清屏"/>
-                                    <barButtonItem title="回退" id="c0B-L1-leE" userLabel="回退"/>
-                                    <barButtonItem title="橡皮" width="72" id="2HX-VE-Mje" userLabel="橡皮"/>
+                                    <barButtonItem title="清屏" id="X3R-5b-IcL" userLabel="清屏">
+                                        <connections>
+                                            <action selector="clearItem:" destination="BYZ-38-t0r" id="Ha5-RJ-MD4"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="回退" id="c0B-L1-leE" userLabel="回退">
+                                        <connections>
+                                            <action selector="backItem:" destination="BYZ-38-t0r" id="Z36-KQ-Y0k"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="橡皮" width="53" id="2HX-VE-Mje" userLabel="橡皮">
+                                        <connections>
+                                            <action selector="eraserItem:" destination="BYZ-38-t0r" id="Np3-IY-Lh8"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" id="IDo-k7-lBE">
+                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="yvk-7a-vHU">
+                                            <rect key="frame" x="169" y="7" width="39" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <nil key="textColor"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                    </barButtonItem>
                                     <barButtonItem title="保存" width="92" id="bgw-Ai-hG3" userLabel="保存">
                                         <inset key="imageInsets" minX="30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <action selector="saveItem:" destination="BYZ-38-t0r" id="1E9-sI-VZF"/>
+                                        </connections>
                                     </barButtonItem>
                                 </items>
                             </toolbar>
@@ -48,21 +72,21 @@
                                         <color key="maximumTrackTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     </slider>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ygt-JZ-NhO" userLabel="first Button">
-                                        <rect key="frame" x="8" y="53" width="115" height="30"/>
+                                        <rect key="frame" x="8" y="53" width="114.5" height="30"/>
                                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNP-t9-QdP"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0d2-Ez-zel">
-                                        <rect key="frame" x="131" y="53" width="114" height="30"/>
+                                        <rect key="frame" x="130.5" y="53" width="114" height="30"/>
                                         <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Yi-Iq-sSF"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCL-cu-xHW">
-                                        <rect key="frame" x="253" y="53" width="114" height="30"/>
+                                        <rect key="frame" x="252.5" y="53" width="114.5" height="30"/>
                                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xh3-is-s6n"/>
@@ -109,8 +133,10 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
+                        <outlet property="eraserWidth" destination="IDo-k7-lBE" id="ehy-0l-y2N"/>
                         <outlet property="firstBtn" destination="Ygt-JZ-NhO" id="1By-EJ-HGP"/>
                         <outlet property="myPaintView" destination="wPr-ze-H6A" id="by1-ag-zqT"/>
+                        <outlet property="mySlider" destination="xhb-qH-0G2" id="m34-vz-7Wh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
